@@ -1,0 +1,138 @@
+@media only screen and (max-width: 992px) {
+   header #slider .rounded-circle {
+      width: 330px;
+      height: 330px;
+  }
+  header #slider .caption-title {
+   padding: 40px 20px;
+   }
+   header #slider .rounded-circle {
+      margin-bottom: 30px;
+  }
+   #gallery .card {
+      width: 300px;
+      height: 200px;
+  }
+  #footer-top textarea {
+   width: 220px;
+   }
+   #footer-top input {
+      width: 220px;
+   }
+   #gallery .after::before {
+      top: -315px;
+  }
+ }
+ @media only screen and (max-width: 768px) {
+   #services-section .card {
+      margin-bottom: 20px;
+  }
+  header #slider .rounded-circle {
+   width: 245px;
+   height: 245px;
+   margin-bottom: 30px;
+   }
+   header #slider .carousel-caption h1 {
+      font-size: 25px;
+  }
+  header #slider .caption-title {
+   padding: 0px 0px;
+   }
+   header #slider img {
+      height: auto;
+      margin-bottom: -110px;
+   }
+  header {
+   height: 500px;
+   }
+   #gallery .card {
+      width: 225px;
+      height: 170px;
+  }
+  header #slider img {
+   height: auto;
+   }
+  #gallery .after::before {
+   top: -285px;
+   }
+   #footer-top input {
+      width: 170px;
+  }
+  #footer-top textarea {
+   width: 170px;
+}
+
+ }
+ @media only screen and (max-width: 576px) {
+   header {
+      height: 450px;
+  }
+  header #slider img {
+   height: auto;
+   }
+   #services-section .card {
+      margin-bottom: 20px;
+  }
+  #gallery .card {
+   width: 80%;
+   height: 250px;
+   margin: auto;
+   margin-top: 20px;
+   }
+   #gallery h5 {
+      height: 20%;
+      padding-top: 15px;
+  }
+  #gallery .card img {
+   width: 100%;
+   height: 80%;
+}
+  #gallery .after::before {
+   top: -1195px;
+   left: 50%;
+   transform: translateX(-50%);
+   }
+   #footer-top{
+      padding: 40px;
+   }
+   #footer-top input , #footer-top textarea {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+  #footer-top h3 {
+   margin: 25px 0;
+   }
+   footer p {
+      font-size: 12px;
+  }
+ }
+
+ @media only screen and (max-width: 480px) {
+   header {
+      height: 419px;
+   }
+   header #slider img {
+      height: auto;
+      margin-bottom: 0px;
+   }
+}
+@media only screen and (max-width: 420px) {
+   header {
+      height: 379px;
+   }
+}
+@media only screen and (max-width: 375px) {
+   header {
+      height: 349px;
+   }
+}
+@media only screen and (max-width: 360px) {
+   header {
+      height: 339px;
+   }
+}
+@media only screen and (max-width: 320px) {
+   header {
+      height: 313px;
+   }
+}
